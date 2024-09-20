@@ -1,5 +1,5 @@
 ## Tugas 3: Abstract, Override, and Overload
-Tugas ketiga fokus pada method abstract, override, dan overload di Java:
+Tugas ketiga membahas method abstract, override, dan overload di Java:
 
 - *Abstract*: Membuat kelas abstrak dan metode abstrak, serta mengimplementasikan kelas turunan yang mengoverride metode abstrak tersebut.
 - *Override*: Mempelajari cara mengoverride metode dari kelas induk di kelas turunan untuk memberikan perilaku yang berbeda.
