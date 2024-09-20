@@ -1,5 +1,5 @@
 ## Tugas 2: Casting, Constructor, Implement, Super, This
-Tugas kedua membahas metode-metode dibawah:
+Tugas kedua membahas metode-metode:
 
 - *Casting*: Memahami bagaimana melakukan casting antara tipe data atau objek dalam hierarki kelas.
 - *Constructor*: Mempelajari cara kerja konstruktor di Java, termasuk chaining konstruktor.
