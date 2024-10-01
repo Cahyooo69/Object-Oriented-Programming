@@ -5,4 +5,5 @@ Tugas-tugas berikut dibuat untuk memperdalam pemahaman tentang konsep-konsep pen
 2. pengelolaan data dengan metode getter dan setter.
 3. penggunaan konsep lanjutan seperti casting, constructor, implementasi interface, penerapan abstraksi dan polimorfisme melalui kelas abstrak, overriding, dan overloading.
 4. Try, Throw, Custom Exception dan Crud.
+5. Java GUI
 Setiap tugas memberikan tantangan yang berbeda untuk memperkuat keterampilan pemrograman Java.
