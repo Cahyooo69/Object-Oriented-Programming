@@ -21,6 +21,7 @@ UTS Java GUI untuk mengelola data MataKuliah dengan menggunakan database Postgre
    ![image](https://github.com/user-attachments/assets/95eefee1-adbd-45f1-b312-caf0c581e0f4)
 7. Jalankan source codenya maka akan muncul tampilan berikut
    ![image](https://github.com/user-attachments/assets/9a37b59c-99d7-4c21-a44b-8a6c3ac1bd2c)
+
    untuk table dibawah akan memunculkan data yang ada pada tabel di database MataKuliah
 
 
