@@ -9,12 +9,14 @@
 5. Tambahkan source code kedalam vm Options dengan code seperti berikut
 ![image](https://github.com/user-attachments/assets/8d72340d-84ec-44f3-ba37-1fe559f9776e)
 6. Buat report wizard dengan design bisa disesuaikan
+
 ![image](https://github.com/user-attachments/assets/f397b082-68a8-46ba-bf8d-f9d61f2065fe)
-7. Connectkan ke database
+
+8. Connectkan ke database
 ![image](https://github.com/user-attachments/assets/a37a9375-fd87-4baf-95d4-757bc62fe2a6)
-8. Berikut adalah source code untuk button cetak
+9. Berikut adalah source code untuk button cetak
 ![image](https://github.com/user-attachments/assets/46687605-e385-4202-9652-a3c7ed12cc1d)
-9. Berikut hasilnya Ketika klik button cetak
+10. Berikut hasilnya Ketika klik button cetak
 ![image](https://github.com/user-attachments/assets/bb3f40dd-3651-4a85-a824-1616cb953671)
 
 
