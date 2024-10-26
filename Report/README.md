@@ -1,5 +1,5 @@
 # Deskripsi Report
-UTS Java GUI untuk mengelola data MataKuliah dengan menggunakan database PostgreSQL. Java GUI ini bisa untuk menambahkan, melihat, dan memodifikasi data MataKuliah yang tersimpan dalam database.
+Java GUI untuk mengelola data MataKuliah dengan menggunakan database PostgreSQL. Java GUI ini bisa untuk menambahkan, melihat, dan memodifikasi data MataKuliah yang tersimpan dalam database. Menggunakan Report Jasper untuk menampilkan hasil tabel
 
 1. Menggunakan JDBC untuk terhubung ke database
 2. CRUD (Create, Read, Update, Delete)
