@@ -1,3 +1,12 @@
+# Deskripsi Report
+UTS Java GUI untuk mengelola data MataKuliah dengan menggunakan database PostgreSQL. Java GUI ini bisa untuk menambahkan, melihat, dan memodifikasi data MataKuliah yang tersimpan dalam database.
+
+1. Menggunakan JDBC untuk terhubung ke database
+2. CRUD (Create, Read, Update, Delete)
+3. Swing untuk membuat GUI nya
+4. Menggunakan Report untuk mencetak hasil dari tabel
+
+# Penjelasan Source Code
 1. Tambahkan button cetak pada Frame Java Swing yang sudah tersedia
 ![image](https://github.com/user-attachments/assets/7851f3ad-615a-4ccd-a599-f287d0ea429a)
 2. Download Library dan tambahkan pada Netbeans
