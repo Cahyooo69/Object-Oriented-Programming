@@ -1,4 +1,4 @@
-# Deskripsi Report
+# Deskripsi Upload
 Java GUI untuk mengelola data MataKuliah dengan menggunakan database PostgreSQL. Java GUI ini bisa untuk menambahkan, melihat, memodifikasi data MataKuliah yang tersimpan dalam database, menggunakan Report Jasper untuk menampilkan hasil tabel, Button Upload untuk menambahakan data menggunakan file CSV
 
 1. Menggunakan JDBC untuk terhubung ke database
