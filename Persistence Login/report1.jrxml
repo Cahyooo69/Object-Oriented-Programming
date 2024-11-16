@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7e214e23-ff51-4070-b008-146d7e2703d4">
+	<property name="ireport.zoom" value="1.4641000000000013"/>
+	<property name="ireport.x" value="287"/>
+	<property name="ireport.y" value="171"/>
+	<style name="Title" forecolor="#FFFFFF" fontName="Times New Roman" fontSize="50" isBold="false" pdfFontName="Times-Bold"/>
+	<style name="SubTitle" forecolor="#CCCCCC" fontName="Times New Roman" fontSize="18" isBold="false" pdfFontName="Times-Roman"/>
+	<style name="Column header" forecolor="#666666" fontName="Times New Roman" fontSize="14" isBold="true" pdfFontName="Times-Roman"/>
+	<style name="Detail" mode="Transparent" fontName="Times New Roman" pdfFontName="Times-Roman"/>
+	<style name="Row" mode="Transparent" fontName="Times New Roman" pdfFontName="Times-Roman">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style mode="Opaque" backcolor="#F0EFEF"/>
+		</conditionalStyle>
+	</style>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM matakuliah;]]>
+	</queryString>
+	<field name="kode_mk" class="java.lang.String"/>
+	<field name="sks" class="java.lang.String"/>
+	<field name="nama_mk" class="java.lang.String"/>
+	<field name="semester_ajar" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="132" splitType="Stretch">
+			<image>
+				<reportElement x="591" y="50" width="766" height="0" uuid="6b317906-a937-4a9b-9721-a086a47df45e"/>
+				<imageExpression><![CDATA["C:\\Users\\ncahy\\Downloads\\irsyad dora.jpg"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="451" y="0" width="104" height="132" uuid="56354e47-05d6-4e14-9813-a0f32d3dfd4b"/>
+				<imageExpression><![CDATA["C:\\Users\\ncahy\\Downloads\\irsyad dora.jpg"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="4" y="15" width="80" height="95" uuid="7913b80b-9d36-4ca7-9ed1-57c86a86256e"/>
+				<imageExpression><![CDATA["C:\\Users\\ncahy\\Downloads\\UINSA.jpeg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement style="Title" x="138" y="15" width="260" height="66" forecolor="#000000" uuid="62274c2d-b15a-4c4c-8030-126c828d6d1c"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Mata Kuliah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="SubTitle" x="124" y="81" width="290" height="29" forecolor="#000000" uuid="0b21942b-608d-4c48-9eb7-eb5ee8cf94af"/>
+				<textElement>
+					<font size="22" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Program Studi Sistem Informasi]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="26" splitType="Stretch">
+			<staticText>
+				<reportElement style="Column header" x="0" y="7" width="138" height="18" forecolor="#000000" uuid="af11ce8e-6cee-4388-8ea0-32e25a1c51e1"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[kode_mk]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="138" y="7" width="138" height="18" forecolor="#000000" uuid="76b48d2f-79a4-405b-8ad5-b76c14f9f9cd"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[sks]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="276" y="7" width="138" height="18" forecolor="#000000" uuid="0a20607d-f876-4caf-a0fd-fd6aed2f8805"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[nama_mk]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="414" y="7" width="138" height="18" forecolor="#000000" uuid="e7a5e90a-f6a2-487c-a8e8-260f538a8c4d"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[semester_ajar]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="18" splitType="Stretch">
+			<frame>
+				<reportElement style="Row" mode="Opaque" x="0" y="0" width="555" height="18" uuid="57f311c1-024e-40e2-8d14-347a4d543f6d"/>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" positionType="Float" x="0" y="0" width="138" height="18" uuid="c9435561-e4fa-41c9-9f8b-6fa3d5ed75b6"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{kode_mk}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" positionType="Float" x="138" y="0" width="138" height="18" uuid="de7cc239-b706-44ae-bde8-8c237c70ba2a"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{sks}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" positionType="Float" x="414" y="0" width="138" height="18" uuid="632589bd-4dab-4d9d-9689-be69061be916"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{semester_ajar}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" positionType="Float" x="276" y="0" width="138" height="18" uuid="85d102cc-f319-4322-b1aa-2ca83aaef87d"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{nama_mk}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="7" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="186" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="145" width="555" height="24" forecolor="#D0B48E" backcolor="#000000" uuid="164ad43b-a781-4b14-b0ec-5ca957d7ea2b"/>
+				<textField pattern="EEEEE dd MMMMM yyyy">
+					<reportElement style="Column header" x="2" y="1" width="197" height="20" forecolor="#FFFFFF" uuid="b180dd04-d7f9-461f-846a-3deff4f8eeb2"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+			<staticText>
+				<reportElement x="388" y="96" width="134" height="20" uuid="ffb8be2c-d1ba-442d-84bb-9204e8161f01"/>
+				<text><![CDATA[Muhammad Ilham Nurcahyo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="422" y="116" width="64" height="22" uuid="82ef6d0b-6b4b-4974-9b75-a698cd3cace5"/>
+				<text><![CDATA[09040623063]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
